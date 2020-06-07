@@ -15,3 +15,10 @@ It has been made in less than an hour, to get **a quick MVP**.
 ## How to use
 
 You can download the latest release [here](https://github.com/readthedocs-fr/LiveApp-frontend/releases), unzip it with [7-zip](https://www.7-zip.org/) and run liveapp.exe
+
+## How to build
+
+You can build it by using *electron-builder*. \
+To install *electron-builder* just do `npm install -g electron-builder` which will install it globally. \
+Then, in this application root folder, just do `electron-builder` and it will compile the application for your operating system. \
+You then can found the build into the `dist/` folder.
