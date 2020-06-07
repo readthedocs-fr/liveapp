@@ -1,16 +1,16 @@
 {
   "name": "liveapp-mvp",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "private": true,
   "description": "A frontend for the WidgetBot discord bot",
   "main": "index.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "shika-blyat",
-  "license": "ISC",
+  "author": "Read The Docs FR",
+  "license": "MIT",
   "devDependencies": {
-    "electron": "^9.0.2",
-    "electron-packager": "^14.2.1"
+    "electron": "^9.0.2"
   }
 }

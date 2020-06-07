@@ -1,18 +1,21 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow, screen } = require('electron')
 
 function createWindow() {
+    const { width, height } = screen.getPrimaryDisplay().workAreaSize
+
     // Cree la fenetre du navigateur.
+    const windowWidth = width / 5
     const win = new BrowserWindow({
-        width: 800,
-        height: 600,
+        width: windowWidth,
+        height: height,
         webPreferences: {
             nodeIntegration: true
         },
         alwaysOnTop: true,
     })
+    win.removeMenu()
+    win.setPosition(width - windowWidth, 0)
     win.loadFile('index.html')
-
-    win = null
 }
 
 app.whenReady().then(createWindow)
