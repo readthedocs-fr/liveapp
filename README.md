@@ -22,3 +22,7 @@ You can build it by using *electron-builder*. \
 To install *electron-builder* just do `npm install -g electron-builder` which will install it globally. \
 Then, in this application root folder, just do `electron-builder` and it will compile the application for your operating system. \
 You then can found the build into the `dist/` folder.
+
+##   License
+
+This application is licensed under the [MIT License](LICENSE).
