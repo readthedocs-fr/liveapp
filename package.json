@@ -1,13 +1,13 @@
 {
   "name": "discord-chat",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "A frontend for the WidgetBot discord bot",
   "main": "index.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "shika-blyat",
   "license": "ISC",
   "devDependencies": {
     "electron": "^9.0.2",
