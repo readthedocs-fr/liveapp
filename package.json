@@ -1,5 +1,5 @@
 {
-  "name": "discord-chat",
+  "name": "liveapp-mvp",
   "version": "0.1.0",
   "description": "A frontend for the WidgetBot discord bot",
   "main": "index.js",
