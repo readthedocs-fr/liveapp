@@ -4,7 +4,7 @@ function createWindow() {
     const { width, height } = screen.getPrimaryDisplay().workAreaSize
 
     // Cree la fenetre du navigateur.
-    const windowWidth = width / 5
+    const windowWidth = Math.floor(width / 5)
     const win = new BrowserWindow({
         width: windowWidth,
         height: height,
