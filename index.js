@@ -1,10 +1,10 @@
-const { app, BrowserWindow, screen } = require('electron')
+const { app, BrowserWindow, screen, ipcMain } = require('electron')
 
 function createWindow() {
     const { width, height } = screen.getPrimaryDisplay().workAreaSize
 
     // Cree la fenetre du navigateur.
-    const windowWidth = Math.floor(width / 5)
+    const windowWidth = (width / 5 >= 300) ? Math.floor(width / 5) : 300
     const win = new BrowserWindow({
         width: windowWidth,
         height: height,
@@ -12,10 +12,19 @@ function createWindow() {
             nodeIntegration: true
         },
         alwaysOnTop: true,
+        frame: false
     })
-    win.removeMenu()
+    win.webContents.zoomFactor = 1
     win.setPosition(width - windowWidth, 0)
-    win.loadFile('index.html')
+    win.loadFile('public/index.html')
+
+    ipcMain.on('minimizeWindow', () => {
+        win.minimize()
+    })
+
+    ipcMain.on('closeWindow', () => {
+        win.close()
+    })
 }
 
 app.whenReady().then(createWindow)

@@ -1,0 +1,54 @@
+*, *::before, *::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(54, 57, 63);
+}
+.tilebar{
+    font-family: 'Ubuntu';
+    -webkit-app-region: drag;
+    display: flex;
+    width: 100vw;
+    height: 30px;
+    color: white;
+    background-color: rgba(32, 34, 37, 1);
+}
+.tilebar a{
+    width: calc(100vw - 60px);
+    font-size: 14px;
+    height: 100%;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+.tilebar .buttons{
+    width: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tilebar .buttons div{
+    -webkit-app-region: no-drag;
+}
+.tilebar .buttons div img{
+    min-width: 20px;
+    max-width: 20px;
+    min-height: 20px;
+    max-height: 20px;
+    cursor: pointer;
+    filter: invert(100%) sepia(1%) saturate(7495%) hue-rotate(226deg) brightness(119%) contrast(100%);
+}
+#minimize {
+    overflow: hidden;
+    min-width: 15px;
+    max-width: 15px;
+    min-height: 30px;
+    max-height: 30px;
+}
+widgetbot{
+    width: 100vw;
+    height: calc(100vh - 30px);
+    border-radius: 0px;
+}
