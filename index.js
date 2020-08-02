@@ -14,7 +14,6 @@ function createWindow() {
         alwaysOnTop: true,
         frame: false
     })
-    win.webContents.zoomFactor = 1
     win.setPosition(width - windowWidth, 0)
     win.loadFile('public/index.html')
 
