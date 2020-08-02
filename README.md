@@ -26,3 +26,7 @@ You then can found the build into the `dist/` folder.
 ##   License
 
 This application is licensed under the [MIT License](LICENSE).
+
+## Credits
+
+- [Some images](assets/fontawesome5) from [Font Awesome](https://fontawesome.com). See credits [here](assets/fontawesome5/README.md).
