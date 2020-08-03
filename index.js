@@ -1,4 +1,4 @@
-const { app, BrowserWindow, screen, ipcMain, nativeImage } = require('electron')
+const { app, BrowserWindow, screen, ipcMain } = require('electron')
 
 function createWindow() {
     const { width, height } = screen.getPrimaryDisplay().workAreaSize
