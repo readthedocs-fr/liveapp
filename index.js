@@ -11,7 +11,8 @@ function createWindow() {
             nodeIntegration: true
         },
         alwaysOnTop: true,
-        frame: false
+        frame: false,
+        icon: 'assets/logo.png'
     })
     win.setPosition(width - windowWidth, 0)
     win.loadFile('public/index.html')
