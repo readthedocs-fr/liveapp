@@ -1,4 +1,4 @@
-const { app, BrowserWindow, screen, ipcMain } = require('electron')
+const { app, BrowserWindow, screen, ipcMain, nativeImage } = require('electron')
 
 function createWindow() {
     const { width, height } = screen.getPrimaryDisplay().workAreaSize
@@ -12,7 +12,8 @@ function createWindow() {
         },
         alwaysOnTop: true,
         frame: false,
-        icon: 'assets/logo.png'
+// FIXME Fix build when adding the icon
+//        icon: 'assets/logo.png'
     })
     win.setPosition(width - windowWidth, 0)
     win.loadFile('public/index.html')
