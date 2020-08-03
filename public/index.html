@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="A frontend for the WidgetBot discord bot">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+		<title>Live App</title>
+		<script type="module" src="titlebar.js"></script>
+	</head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="description" content="A frontend for the WidgetBot discord bot">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-    <title>Live App</title>
-    <script type="module" src="titlebar.js"></script>
-</head>
-
-<body>
-    <div class="tilebar">
-        <a>Live App — Read The Docs</a>
-        <div class="buttons">
-            <div id="minimize">
-                <img src="../assets/fontawesome5/minimize.svg" alt="minimize window">
-            </div>
-            <div id="close">
-                <img src="../assets/fontawesome5/close.svg" alt="close window">
-            </div>
-        </div>
-    </div>
-    <widgetbot 
-        server="238975753969074177" 
-        channel="718795219369328661">
-    </widgetbot>
-    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
-</body>
-
+	<body>
+		<div class="tilebar">
+			<a>Live App — Read The Docs</a>
+			<div class="buttons">
+				<div id="minimize">
+					<img src="../assets/fontawesome5/minimize.svg" alt="minimize window">
+				</div>
+				<div id="close">
+					<img src="../assets/fontawesome5/close.svg" alt="close window">
+				</div>
+			</div>
+		</div>
+		<widgetbot 
+			server="238975753969074177" 
+			channel="718795219369328661">
+		</widgetbot>
+		<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+	</body>
 </html>
