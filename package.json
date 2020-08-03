@@ -11,6 +11,6 @@
   "author": "Read The Docs FR",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^9.0.2"
+    "electron": "^9.1.2"
   }
 }
