@@ -27,10 +27,10 @@ You then can found the build into the `src/dist/` folder.
 
 This application is licensed under the [MIT License](LICENSE).
 
-## Screenshot
-
-![Screenshot](.images/screenshot.png)
-
 ## Credits
 
 - [Some images](assets/fontawesome5) from [Font Awesome](https://fontawesome.com). See credits [here](assets/fontawesome5/README.md).
+
+## Screenshot
+
+![Screenshot](.images/screenshot.png)
