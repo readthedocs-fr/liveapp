@@ -13,7 +13,7 @@ function createWindow() {
         },
         alwaysOnTop: true,
         frame: false,
-        icon: path.join(__dirname, 'assets/logo.png')
+        icon: path.join(__dirname, 'public/assets/logo.png')
     })
     win.setPosition(width - windowWidth, 0)
     win.loadFile('public/index.html')
