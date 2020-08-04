@@ -9,7 +9,7 @@ In other words, it is an *always on top* application, which allows to do some ot
 
 ## WARNING!
 
-This application is **very heavy**: because of ElectronJS which is basically a full browser, it weighs around 160MB. \
+This application is **heavy**: because of ElectronJS which is basically a full browser, it weighs around 160MB. \
 It has originally been made in less than an hour, to get **a quick MVP**.
 
 ## How to use
@@ -20,8 +20,8 @@ You can download the latest release [here](https://github.com/readthedocs-fr/Liv
 
 You can build it by using *electron-builder*. \
 To install *electron-builder* just do `npm install -g electron-builder` which will install it globally. \
-Then, in this application root folder, just do `electron-builder` and it will compile the application for your operating system. \
-You then can found the build into the `dist/` folder.
+Then, in the `src/` folder, just do `electron-builder` and it will compile the application for your operating system. \
+You then can found the build into the `src/dist/` folder.
 
 ## License
 
