@@ -1,9 +1,9 @@
 const { app, BrowserWindow, screen, ipcMain } = require('electron')
+const path = require('path')
 
 function createWindow() {
     const { width, height } = screen.getPrimaryDisplay().workAreaSize
 
-    // Cree la fenetre du navigateur.
     const windowWidth = (width / 5 >= 300) ? Math.floor(width / 5) : 300
     const win = new BrowserWindow({
         width: windowWidth,
@@ -12,18 +12,14 @@ function createWindow() {
             nodeIntegration: true
         },
         alwaysOnTop: true,
-        frame: false
+        frame: false,
+        icon: path.join(__dirname, 'public/assets/logo.png')
     })
     win.setPosition(width - windowWidth, 0)
     win.loadFile('public/index.html')
 
-    ipcMain.on('minimizeWindow', () => {
-        win.minimize()
-    })
-
-    ipcMain.on('closeWindow', () => {
-        win.close()
-    })
+    ipcMain.on('minimizeWindow', () => win.minimize())
+    ipcMain.on('closeWindow', () => win.close())
 }
 
 app.whenReady().then(createWindow)

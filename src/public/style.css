@@ -12,7 +12,7 @@ body
     background-color: rgb(54, 57, 63);
 }
 
-.tilebar
+.titlebar
 {
     font-family: 'Ubuntu';
     -webkit-app-region: drag;
@@ -23,7 +23,7 @@ body
     background-color: rgba(32, 34, 37, 1);
 }
 
-.tilebar a
+.titlebar a
 {
     width: calc(100vw - 60px);
     font-size: 14px;
@@ -33,7 +33,7 @@ body
     align-items: center;
 }
 
-.tilebar .buttons
+.titlebar .buttons
 {
     width: 50px;
     display: flex;
@@ -41,12 +41,12 @@ body
     align-items: center;
 }
 
-.tilebar .buttons div
+.titlebar .buttons div
 {
     -webkit-app-region: no-drag;
 }
 
-.tilebar .buttons div img
+.titlebar .buttons div img
 {
     min-width: 20px;
     max-width: 20px;
