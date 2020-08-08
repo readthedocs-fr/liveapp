@@ -1,4 +1,4 @@
-const { app, BrowserWindow, screen, ipcMain } = require('electron')
+const { app, BrowserWindow, screen, ipcMain, Tray, Menu } = require('electron')
 const path = require('path')
 
 function createWindow() {
@@ -21,9 +21,20 @@ function createWindow() {
 
     ipcMain.on('minimizeWindow', () => win.minimize())
     ipcMain.on('closeWindow', () => win.close())
+
+    return win
 }
 
-app.whenReady().then(createWindow)
+app.whenReady().then(() => {
+    const win = createWindow()
+    const tray = new Tray(path.join(__dirname, 'public/assets/logo.png'))
+    
+    tray.setToolTip('LiveApp')
+    tray.setContextMenu(Menu.buildFromTemplate([
+        {label: 'Minimize', click: () => win.minimize()},
+        {label: 'Quit', click: () => app.quit()}
+    ]))
+})
 
 app.on('window-all-closed', () => {
     if (process.platform !== 'darwin') {
@@ -31,8 +42,10 @@ app.on('window-all-closed', () => {
     }
 })
 
+/*
 app.on('activate', () => {
     if (win === null) {
         createWindow()
     }
 })
+*/
