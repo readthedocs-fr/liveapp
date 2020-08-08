@@ -9,7 +9,8 @@ function createWindow() {
         width: windowWidth,
         height: height,
         webPreferences: {
-            nodeIntegration: true
+            nodeIntegration: false,
+            preload: path.join(app.getAppPath(), 'public/preload.js')
         },
         alwaysOnTop: true,
         frame: false,
