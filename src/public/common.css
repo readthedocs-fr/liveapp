@@ -64,10 +64,3 @@ body
     min-height: 30px;
     max-height: 30px;
 }
-
-widgetbot
-{
-    width: 100vw;
-    height: calc(100vh - 30px);
-    border-radius: 0px;
-}
