@@ -5,12 +5,20 @@
 		<meta name="description" content="A frontend for the WidgetBot discord bot">
 		<meta http-equiv="Content-Security-Policy" content="script-src 'self';">
 		<link rel="stylesheet" href="common.css">
+		<link rel="stylesheet" href="config.css">
 		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-		<title>Live App</title>
-		<script type="module" src="titlebar.js"></script>
+		<title>Live App — Config</title>
 	</head>
 	<body>
         <div id="titlebar"></div>
-        <!-- TODO This page is empty -->
+		<main>
+			<label>Server ID
+				<input type="text" minlength="18" maxlength="18">
+			</label>
+			<label>Channel ID
+				<input type="text" minlength="18" maxlength="18">
+			</label>
+			<button type="submit">Confirm</button>
+		</main>
 	</body>
 </html>

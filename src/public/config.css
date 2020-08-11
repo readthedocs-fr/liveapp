@@ -1,0 +1,23 @@
+main
+{
+    color: white;
+    text-shadow: 1px 1px black;
+    display:flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+main label
+{
+    margin: 3vh 2vw;
+}
+
+main input
+{
+    float:right;
+}
+
+main button 
+{
+    margin: 1vh 2vw;
+}
