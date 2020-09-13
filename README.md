@@ -29,7 +29,7 @@ This application is licensed under the [MIT License](LICENSE).
 
 ## Credits
 
-- [Some images](assets/fontawesome5) from [Font Awesome](https://fontawesome.com). See credits [here](assets/fontawesome5/README.md).
+- [Some images](src/public/assets/fontawesome5/) from [Font Awesome](https://fontawesome.com). See credits [here](src/public/assets/fontawesome5/README.md).
 
 ## Screenshot
 
