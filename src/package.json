@@ -8,7 +8,7 @@
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Read The Docs FR",
+  "author": "Read The Docs <opensource@readthedocs.fr> (https://readthedocs.fr/)",
   "license": "MIT",
   "repository": {
     "type": "git",
