@@ -14,7 +14,7 @@ It has originally been made in less than an hour, to get **a quick MVP**.
 
 ## How to use
 
-You can download the latest release [here](https://github.com/readthedocs-fr/LiveApp-frontend/releases), unzip it with [7-zip](https://www.7-zip.org/) and run liveapp.exe
+You can download the latest release from [here](https://github.com/readthedocs-fr/LiveApp-frontend/releases).
 
 ## How to build
 
