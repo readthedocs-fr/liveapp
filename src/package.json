@@ -1,6 +1,6 @@
 {
   "name": "liveapp-mvp",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "private": true,
   "description": "A frontend for the WidgetBot discord bot",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "url": "https://github.com/readthedocs-fr/liveapp-mvp"
   },
   "devDependencies": {
-    "electron": "^9.4.0"
+    "electron": "^25.3.1"
   },
   "volta": {
     "node": "18.17.0"
