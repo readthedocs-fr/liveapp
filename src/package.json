@@ -16,5 +16,8 @@
   },
   "devDependencies": {
     "electron": "^9.4.0"
+  },
+  "volta": {
+    "node": "18.17.0"
   }
 }
