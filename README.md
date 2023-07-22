@@ -18,10 +18,11 @@ You can download the latest release [here](https://github.com/readthedocs-fr/Liv
 
 ## How to build
 
-You can build it by using *electron-builder*. \
-To install *electron-builder* just do `npm install -g electron-builder` which will install it globally. \
-Then, in the `src/` folder, just do `electron-builder` and it will compile the application for your operating system. \
-You then can found the build into the `src/dist/` folder.
+- Install [volta](https://volta.sh/)
+- Go to `src/` folder and install dependencies (`npm install`)
+- Run command `npm run build`
+
+You will now found the build into the `src/dist/` folder.
 
 ## License
 
