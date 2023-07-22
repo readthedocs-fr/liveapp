@@ -1,4 +1,4 @@
-# LiveApp MVP 🔴
+# Read the Docs' Live App 🔴
 
 ![LiveApp logo](resources/logo/logo-128x.png)
 
@@ -7,14 +7,11 @@ In other words, it is an *always on top* application, which allows to do some ot
 
 **The primary purpose of this app is to be used while streaming live, on discord!**
 
-## WARNING!
-
-This application is **heavy**: because of ElectronJS which is basically a full browser, it weighs around 160MB. \
-It has originally been made in less than an hour, to get **a quick MVP**.
+*This application is heavy: because of ElectronJS which is basically a full browser, it weighs around 230MB.*
 
 ## How to use
 
-You can download the latest release from [here](https://github.com/readthedocs-fr/LiveApp-frontend/releases).
+You can download the latest release from [here](https://github.com/readthedocs-fr/liveapp/releases).
 
 ## How to build
 
