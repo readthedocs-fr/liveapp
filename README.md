@@ -1,4 +1,4 @@
-# LiveApp MVP 🔴
+# Read the Docs' Live App 🔴
 
 ![LiveApp logo](resources/logo/logo-128x.png)
 
@@ -7,21 +7,19 @@ In other words, it is an *always on top* application, which allows to do some ot
 
 **The primary purpose of this app is to be used while streaming live, on discord!**
 
-## WARNING!
-
-This application is **heavy**: because of ElectronJS which is basically a full browser, it weighs around 160MB. \
-It has originally been made in less than an hour, to get **a quick MVP**.
+*This application is heavy: because of ElectronJS which is basically a full browser, it weighs around 230MB.*
 
 ## How to use
 
-You can download the latest release [here](https://github.com/readthedocs-fr/LiveApp-frontend/releases), unzip it with [7-zip](https://www.7-zip.org/) and run liveapp.exe
+You can download the latest release from [here](https://github.com/readthedocs-fr/liveapp/releases).
 
 ## How to build
 
-You can build it by using *electron-builder*. \
-To install *electron-builder* just do `npm install -g electron-builder` which will install it globally. \
-Then, in the `src/` folder, just do `electron-builder` and it will compile the application for your operating system. \
-You then can found the build into the `src/dist/` folder.
+- Install [volta](https://volta.sh/)
+- Go to `src/` folder and install dependencies (`npm install`)
+- Run command `npm run build`
+
+You will now found the build into the `src/dist/` folder.
 
 ## License
 

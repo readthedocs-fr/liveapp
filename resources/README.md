@@ -2,6 +2,6 @@
 
 Here are the sources of LiveApp resources.
 
-### File formats
+## File formats
 
 - PDN: [Paint.NET project file](https://www.getpaint.net/index.html)
